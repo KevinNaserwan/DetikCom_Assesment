@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/img/Logo.svg" type="image/x-icon" />
+    <title>Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/assets/css/detail-blog.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="container">
+        <div
+          class="header d-flex align-items-center justify-content-between mx-auto"
+        >
+          <div class="logo">
+            <h1>team<span>.</span></h1>
+          </div>
+          <div class="menu" id="menu">
+            <ul class="list mt-3">
+              <li><a href="" class="">Product</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Support</a></li>
+              <li><a href="">Log In</a></li>
+              <li><a href="" class="button">Get Access</a></li>
+            </ul>
+          </div>
+          <a href="#" id="menuIcon"><img src="/assets/img/menu_black__24px.svg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Detail Blog Section-->
+    <div class="detail-blog">
+      <div class="container">
+        <h1 class="title">
+          Data exported by Team Cloud organization administrators contained
+          private files
+        </h1>
+        <div class="author">
+          <img src="/assets/img/avatar/Ellipse(15).svg" alt="" />
+          <p>Mark Brooklyn</p>
+          <img src="/assets/img/Vector.svg" alt="" />
+          <p>July 29, 2022</p>
+        </div>
+        <img class="detail" src="/assets/img/blog/detail-blog1.jpeg" alt="" />
+        <div class="content-blog">
+          <p>
+            Administrators of Team Cloud organizations can export public data
+            from their organization via the organization settings menu. The
+            exports include all the data that appears in public streams, and can
+            be used to migrate from Team Cloud to self-hosting Team. Note that
+            exporting private data is a separate process that requires
+            contacting Team Support.
+          </p>
+          <p>
+            Due to a bug in the public export code, exports of public data
+            contained all uploaded files, even those from private messages and
+            private streams. This may have allowed organization owners or
+            administrators to extract uploaded files that they were not
+            otherwise allowed to access. The content of non-public messages was
+            never included in public exports.
+          </p>
+          <p>
+            This bug has existed since the public export feature was implemented
+            in August 2019. We have deleted all existing Team Cloud exports from
+            our servers, and will be making changes to auto-expire all exports
+            after 7 days in the future. This bug was fixed for self-hosted users
+            in the Team Server 5.4 release.
+          </p>
+          <p>
+            We have notified by email all administrators and users in
+            non-deactivated Team Cloud organizations who may have been impacted
+            by this bug. As many organizations have never exported their data,
+            most Team Cloud users were not affected.
+          </p>
+          <p>
+            We would like to thank Antoine Benoist for bringing this issue to
+            our attention.
+          </p>
+          <div class="author2">
+            <img src="/assets/img/avatar/Ellipse(15).svg" alt="" />
+            <div class="name">
+              <h4>Written by</h4>
+              <h3>Mark Brooklyn</h3>
+              <h5 class="name-content">
+                COO at Team. Author of the upcoming book on Team Management and
+                Leadership.
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="comment">
+          <p>Join the conversation</p>
+          <div class="frame">
+            <img src="/assets/img/avatar/Ellipse(17).svg" alt="">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Comments"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Section-->
+    <footer>
+      <div class="container justify-content-between flex-wrap">
+        <div class="logo-footer">
+          <h1>team<span>.</span></h1>
+          <p>Collaboration platform for mordern team</p>
+        </div>
+        <div class="menu-footer d-flex flex-wrap pt-4">
+          <div class="menu-list" style="width: 112px">
+            <h1>Company</h1>
+            <ul>
+              <li><a href="">Product</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Support</a></li>
+            </ul>
+          </div>
+          <div class="menu-list" style="width: 136px">
+            <h1>Features</h1>
+            <ul>
+              <li><a href="">Screen Sharing</a></li>
+              <li><a href="">iOS & Android Apps</a></li>
+              <li><a href="">File Sharing</a></li>
+              <li><a href="">User Managment</a></li>
+            </ul>
+          </div>
+          <div class="menu-list" style="width: 138px">
+            <h1>Contact Us</h1>
+            <ul>
+              <li><a href="">info@teamapp.com</a></li>
+              <li><a href="">1-800-200-300</a></li>
+              <li><a href="">1010 Sunset Blv. Palo Alto, California</a></li>
+            </ul>
+          </div>
+          <div class="menu-list" style="width: 268px">
+            <h1>Stay up to date</h1>
+            <ul>
+              <li><a href="">Subscribe to our newseller</a></li>
+              <div class="input">
+                <p class="mb-0">Email</p>
+                <img
+                  src="/assets/img/arrow_forward_24px copy.svg"
+                  width="24"
+                  height="24"
+                  class="flex-shrink-0"
+                  alt=""
+                />
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="copyright">© Copyright Team Inc.</p>
+      </div>
+    </footer>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
